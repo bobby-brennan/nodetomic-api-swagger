@@ -7,8 +7,7 @@ const CLIENT = '/client';
 export default {
   secret: `your_secret_key`, // Secret Key
   server: { // Express
-    ip: 'localhost',
-    port: 8000,
+    port: 3001,
   },
   "socket.io": { // Socket.io
     port: 8001, // public port listen, change also in views/default/demo.js

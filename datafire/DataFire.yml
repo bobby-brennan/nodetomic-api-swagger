@@ -1,0 +1,10 @@
+openapi:
+  host: localhost:3434
+  schemes:
+    - http
+  basePath: /v1
+
+paths:
+  /goodbye:
+    get:
+      action: ./goodbye.js
